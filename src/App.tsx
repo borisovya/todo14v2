@@ -12,11 +12,11 @@ import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import { Menu } from '@mui/icons-material';
 import {
-    addTodolistAC, addTodolistsTC,
+     addTodolistsTC,
     changeTodolistFilterAC,
-    changeTodolistTitleAC, deleteTodolistsTC, fetchTodolistsTC,
+     deleteTodolistsTC, fetchTodolistsTC,
     FilterValuesType,
-    removeTodolistAC,
+
     TodolistDomainType, updateTodolistTitleTC
 } from './state/todolists-reducer'
 import {
